@@ -8,6 +8,7 @@ import { siteConfig } from "@/content/site";
 
 const navigation = [
   ["Docket", "#docket"],
+  ["Education", "#profile"],
   ["Experience", "#experience"],
   ["Writing", "#writing"],
   ["Contact", "#contact"],
@@ -40,7 +41,7 @@ export default function Home() {
           <div className="heroLower">
             <p>{siteConfig.positioning.introduction}</p>
             <div className="heroActions">
-              <a className="primaryButton" href="#focus">Explore the index <span aria-hidden="true">↘</span></a>
+              <a className="primaryButton" href="#profile">Explore the index <span aria-hidden="true">↘</span></a>
               <a className="textButton" href={siteConfig.person.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -58,16 +59,16 @@ export default function Home() {
           <span className="stripCode">VERIFIED / V1</span>
         </section>
 
+        <EducationProfile />
         <ResearchMap />
         <RecordStack />
         <ExperienceRecords />
         <PublicWork />
-        <EducationProfile />
 
         <section className="protocolSection" id="protocol" aria-labelledby="protocol-heading">
           <div className="protocolMark" aria-hidden="true"><span>MK</span></div>
           <div>
-            <div className="sectionEyebrow">Index 03 / correspondence protocol</div>
+            <div className="sectionEyebrow">Index 06 / correspondence protocol</div>
             <h2 id="protocol-heading">A considered next step starts with a clear note.</h2>
             <p>
               For professional opportunities, research conversations, or collaboration,

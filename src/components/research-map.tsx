@@ -15,7 +15,7 @@ export function ResearchMap() {
 
   return (
     <section className="mapPanel" aria-labelledby="research-map-heading">
-      <div className="sectionEyebrow">Index 01 / interactive field map</div>
+      <div className="sectionEyebrow">Index 02 / interactive field map</div>
       <div className="mapHeadingRow">
         <div>
           <h2 id="research-map-heading">The areas that frame the work</h2>

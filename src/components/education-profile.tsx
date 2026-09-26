@@ -4,7 +4,7 @@ export function EducationProfile() {
   return (
     <section className="educationSection" id="profile" aria-labelledby="education-heading">
       <div className="educationIntro">
-        <div className="sectionEyebrow">Index 06 / foundation</div>
+        <div className="sectionEyebrow">Index 01 / foundation</div>
         <h2 id="education-heading">A legal education with a technology-facing edge.</h2>
         <p>{siteConfig.positioning.profileLine}</p>
       </div>

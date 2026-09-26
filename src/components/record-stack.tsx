@@ -29,7 +29,7 @@ export function RecordStack() {
   return (
     <section className="recordSection" aria-labelledby="record-heading">
       <div>
-        <div className="sectionEyebrow">Index 02 / selected record</div>
+        <div className="sectionEyebrow">Index 03 / selected record</div>
         <h2 id="record-heading">A portfolio that treats facts with care.</h2>
       </div>
       <div className="recordStack">
